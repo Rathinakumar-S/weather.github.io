@@ -1,0 +1,45 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;   
+}
+
+.container{
+  background-image: url('../public/image/abc.jpg');
+  background-size: cover;
+}
+
+.input{
+  padding: 7px;
+  width: 120%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  border-radius: 8px;
+}
+.input:focus{
+  outline:none;
+}
+.msg{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-size:x-large;
+  font-weight: 100;
+
+}
+.main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-size: x-large;
+  font-weight: 130;
+  
+}
